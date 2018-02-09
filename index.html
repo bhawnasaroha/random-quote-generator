@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Sanchez" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="quotes.ico">
+  <title>Generate Random Quotes</title>
+</head>
+
+<body id="body">
+  <div class="container-fluid">
+    <div class="text-center">
+      <h1 class="google-font"><strong>Generate a Random Quote</strong></h1></div>
+    <div class="text-center lead">
+      <h3 class="google-font">These are some of my favourite quotes, click the button to see the next quote</h3></div>
+    <div class="align-center text-center"><button title="Click to get a new quote"class="btn btn-dark mt-3" id="nextQuote">&nbsp<i class="fas fa-chevron-circle-right"></i>&nbsp</button></div>
+    <div class="jumbotron">
+      <div id="quote">
+        <h4><blockquote class="blockquote" id="theQuote"></blockquote></h4>
+        <h5><footer class="blockquote-footer" id="quotedBy"></footer></h5>
+        <div class="row" id="social-buttons">
+          <div class="col">
+            <a href="" title="Tweet this quote" target="_blank" id="twitter-button" class="btn btn-info float-right"><i class="fab fa-twitter"></i>&nbspTweet</a>
+
+            <div class="fb-share-button" data-href="https://codepen.io/bhawna13/full/XZpGmv/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a id="facebook-button" class="btn btn-primary float-right mb-1 mr-1" title="Share on Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcodepen.io%2Fbhawna13%2Ffull%2FXZpGmv%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fab fa-facebook-f"></i>&nbspShare</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body{
+  color: white;
+  background: linear-gradient(to right, #ff5501, #ff036d );
+  background-repeat: no-repeat cover;
+  margin-top: 5%;
+  font-size: 16px;
+
+}
+
+#nextQuote{
+  background: #121117;
+}
+
+.google-font{
+  font-family: 'Great Vibes', cursive;
+}
+
+.jumbotron{
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 3%;
+  padding-bottom: 1%;
+  color: black;
+  height: auto;
+  background-color: white;
+}
+
+#theQuote, #quotedBy{
+  font-family: 'Sanchez', serif;
+}
+
+h1{
+   font-size: 5vmax;
+}
+
+h3{
+   font-size: 3vmax;
+}
+
+#theQuote{
+  font-size: 1.4em;
+}
+
+#quotedBy{
+  font-size: 1.1em;
+}
+
+#social-buttons{
+  margin-top: 2%;
+}
+
+#twitter-button a{
+  color: white;
+}
+
+#facebook-button a{
+  color: white;
+}
+
+
+
+
+
+
+/* media queries start here */
+@media only screen and (max-width: 554px){
+  h1{
+    font-size: 8vmax;
+  }
+
+  h3{
+    font-size: 5vmax;
+  }
+
+  .jumbotron{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+    padding-bottom: 1%;
+  }
+
+  #theQuote{
+    font-size: 1.1em;
+  }
+
+  #quotedBy{
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 554px){
+  h1{
+    font-size: 9vmax;
+  }
+
+  h3{
+    font-size: 5.5vmax;
+  }
+
+  .jumbotron{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 4%;
+    padding-bottom: 1.2%;
+  }
+
+  #theQuote{
+    font-size: 1.2em;
+  }
+
+  #quotedBy{
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 768px){
+  h1{
+    font-size: 7vmax;
+  }
+
+  h3{
+    font-size: 4.5vmax;
+  }
+}
+
+@media screen and (min-width: 992px){
+  h1{
+    font-size: 6vmax;
+  }
+
+  h3{
+    font-size: 3.7vmax;
+  }
+
+  .jumbotron{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+  }
+}
